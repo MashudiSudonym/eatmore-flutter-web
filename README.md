@@ -2,6 +2,13 @@
 
 A trial Flutter web project.
 
+## Android Version
+![image-phone](sshp.jpg)
+
+## Web Version
+![image-web-1](ssweb3.png)
+
+![image-web-2](ssweb2.png)
 ## Getting Started
 
 This project is a starting point for a Flutter web user interface.
