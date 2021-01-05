@@ -10,7 +10,6 @@ class HomeScreen extends StatelessWidget {
         FocusScope.of(context).requestFocus(FocusNode());
       },
       child: Scaffold(
-        backgroundColor: Colors.white,
         appBar: buildAppBar(context),
         body: HomeBody(),
       ),
@@ -19,7 +18,6 @@ class HomeScreen extends StatelessWidget {
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.white,
       leading: IconButton(
         padding: EdgeInsets.all(
           MediaQuery.of(context).size.width / 100 * 2,
