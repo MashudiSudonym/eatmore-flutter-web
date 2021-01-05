@@ -48,7 +48,7 @@ class CategoryItem extends StatelessWidget {
             size: size,
             position: 6,
             categoryName: 'Soup',
-            categoryImage: 'assets/Soup.png',
+            categoryImage: 'assets/soup.png',
           ),
           CategoryCard(
             size: size,
