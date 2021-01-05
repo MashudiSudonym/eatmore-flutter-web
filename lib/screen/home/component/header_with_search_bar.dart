@@ -49,14 +49,10 @@ class HeaderWithSearchBar extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
-                    color: kPropertyColor.withOpacity(
-                      0.10,
-                    ),
-                    offset: Offset(
-                      0,
-                      10,
-                    ),
-                    blurRadius: 50,
+                    offset: Offset(10, 10),
+                    blurRadius: 20,
+                    spreadRadius: 10,
+                    color: Colors.grey[400].withOpacity(0.2),
                   ),
                 ]),
             child: TextField(
